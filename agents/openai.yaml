@@ -1,14 +1,13 @@
 interface:
-  display_name: Seedance 2 Prompt Compiler
-  short_description: 把剧本编译为连续、可执行的 Seedance 2 分段与镜头
-  icon_small: assets/icon.svg
-  icon_large: assets/icon.svg
-  default_prompt: Use $seedance-2-prompt-compiler to convert this script into production-ready
-    segments, shots, and Seedance 2 prompts.
+  display_name: "Seedance 2.0 / 2.5 提示词编译器"
+  short_description: "按用户选择生成 2.0 或 2.5 视频分镜与提示词，默认 2.5"
+  default_prompt: "Use $seedance-prompt-compiler to compile my script and references for Seedance 2.5 by default, or 2.0 when I specify it."
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
 policy:
   products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
+    - chatgpt
+    - codex
+    - api
+    - atlas
   allow_implicit_invocation: true
