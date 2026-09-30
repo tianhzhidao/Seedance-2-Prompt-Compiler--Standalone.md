@@ -1,13 +1,15 @@
 interface:
-  display_name: "Seedance 2.0 / 2.5 提示词编译器"
-  short_description: "按用户选择生成 2.0 或 2.5 视频分镜与提示词，默认 2.5"
-  default_prompt: "Use $seedance-prompt-compiler to compile my script and references for Seedance 2.5 by default, or 2.0 when I specify it."
-  icon_small: "assets/icon.svg"
-  icon_large: "assets/icon.svg"
+  display_name: CG 生图与 Seedance 视频提示词编译器
+  short_description: 编译 Image 与 Nano Banana Pro 生图和 Seedance 视频提示词
+  default_prompt: Use $seedance-prompt-compiler to write CG image prompts for Image
+    2.5, Image 2.0 or Nano Banana Pro, or Seedance video prompts from my script and
+    references.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
 policy:
   products:
-    - chatgpt
-    - codex
-    - api
-    - atlas
+  - chatgpt
+  - codex
+  - api
+  - atlas
   allow_implicit_invocation: true
